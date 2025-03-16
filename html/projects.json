@@ -67,7 +67,7 @@
         {
             "name": "Friendly Reminder",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/Friendly_Reminder_new.png",
+            "image": "",
             "keywords": [
                 "Flutter",
                 "Dart",
@@ -77,7 +77,7 @@
         {
             "name": "Jokes App",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/fitness_app.png",
+            "image": "",
             "keywords": [
                 "Flutter",
                 "Dart",
@@ -87,7 +87,7 @@
         {
             "name": "3D Platformer",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/ai_chatbot.png",
+            "image": "",
             "keywords": [
                 "Python",
                 "Machine Learning",
@@ -99,7 +99,7 @@
         {
             "name": "Discord Chatbot",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/ai_chatbot.png",
+            "image": "",
             "keywords": [
                 "Python",
                 "Machine Learning",
@@ -109,7 +109,7 @@
         {
             "name": "Bero Chat",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/fitness_app.png",
+            "image": "",
             "keywords": [
                 "Python"
             ]
@@ -117,7 +117,7 @@
         {
             "name": "To Get Her",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/ai_chatbot.png",
+            "image": "",
             "keywords": [
                 "Unity",
                 "C#",
@@ -127,7 +127,7 @@
         {
             "name": "Mission: Drift Classic",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/fitness_app.png",
+            "image": "",
             "keywords": [
                 "Unity",
                 "C#",
@@ -137,7 +137,7 @@
         {
             "name": "Temple Game",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/fitness_app.png",
+            "image": "",
             "keywords": [
                 "Unity",
                 "C#",
