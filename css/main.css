@@ -191,3 +191,214 @@ h1 {
     padding: 3px 6px;
     border-radius: 10px;
 }
+
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    display: flex;
+    margin: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #151515;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hide Sidebar on Mobile */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        position: fixed;
+        width: 260px;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+}
+
+/* Sidebar Title */
+.sidebar h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navigation Links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    color: #f0f0f0;
+}
+
+/* Close Button */
+.close-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+/* Show Close Button on Mobile */
+@media (max-width: 768px) {
+    .close-btn {
+        display: block;
+    }
+}
+
+/* Hamburger Button */
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 15;
+}
+
+/* Show Hamburger Button on Mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Technical Skills */
+.technical-skills {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.technical-skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    max-width: 220px;
+}
+
+.skills-grid span {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Main Content */
+body {
+    margin-left: 260px;
+}
+
+.main-content {
+    width: calc(100% - 260px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+/* Responsive Layout for Projects */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 3.5rem;
+}
+
+/* Project Containers */
+.project_container,
+.project_container_timo {
+    position: relative;
+    width: 30%;
+    height: 350px;
+    background: #151515;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+/* Full-width for Mobile */
+@media (max-width: 768px) {
+    body {
+        margin-left: 0;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section {
+        justify-content: center;
+    }
+
+    .project_container,
+    .project_container_timo {
+        width: 100%;
+        height: 300px;
+    }
+}
