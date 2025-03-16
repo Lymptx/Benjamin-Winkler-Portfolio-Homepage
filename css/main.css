@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    display: flex;
+    margin: 0;
+}
+
+/* Sidebar container */
+.sidebar {
+    width: 15%;
+    height: 100vh;
+    /* Full height */
+    background-color: #151515;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically center content */
+    align-items: center;
+    /* Horizontally center content */
+    position: fixed;
+    /* Fixed position to stay on the left side */
+    top: 0;
+    /* Keep it at the top */
+    left: 0;
+    /* Align to the left */
+    z-index: 10;
+    /* Ensure the sidebar stays above the content */
+}
+
+/* Title */
+.sidebar h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    /* Space between title and links */
+    font-weight: bold;
+}
+
+/* Remove default list styling */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Links styling */
+.sidebar a {
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* White text color */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+/* Hover effect */
+.sidebar a:hover {
+    color: #f0f0f0;
+    /* Light grey color on hover */
+}
+
+/* Body content (add margin to prevent overlap with sidebar) */
+body {
+    margin-left: 20%;
+    /* Space for the sidebar */
+    font-family: Arial, sans-serif;
+}
+
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    margin-bottom: 3.5rem;
+}
+
+.project_container_timo {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background: #151515;
+    background-image: url('../img/projects/timo_website.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px rgb(44, 44, 44) solid;
+}
+
+.project_container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px rgb(44, 44, 44) solid;
+}
+
+.project_container:empty {
+    background-color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background-color: #151515;
+    ;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.overlay a img {
+    width: 1rem;
+    height: 1rem;
+    filter: brightness(0) invert(1);
+    /* This will make the SVG white */
+}
+
+.keywords {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.keyword {
+    font-size: .875rem;
+    color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+    padding: 3px 6px;
+    border-radius: 10px;
+}

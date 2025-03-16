@@ -1,0 +1,148 @@
+{
+    "mainProjects": [
+        {
+            "name": "Athlete Website",
+            "url": "https://timo-hinterndorfer.com/",
+            "image": "../img/projects/timo_website.png",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Figma"
+            ]
+        },
+        {
+            "name": "Mission Drift: Lost Tracks",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftLostTracks",
+            "image": "../img/projects/mission_drift.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Blender",
+                "Gimp"
+            ]
+        },
+        {
+            "name": "Save the Sun",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.SavetheSun&hl=de",
+            "image": "../img/projects/Save_the_Sun.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Piskel"
+            ]
+        },
+        {
+            "name": "Off the Path",
+            "url": "https://bero-games.itch.io/off-the-path",
+            "image": "../img/projects/Off_the_path.png",
+            "keywords": [
+                "Unreal Engine",
+                "C++",
+                "Blender"
+            ]
+        },
+        {
+            "name": "Buxicution",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.Buxicution&hl",
+            "image": "../img/projects/Buxicution.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Piskel"
+            ]
+        },
+        {
+            "name": "Inaccurate Weather",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Figma"
+            ]
+        }
+    ],
+    "projectsInDevelopment": [
+        {
+            "name": "Friendly Reminder",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/Friendly_Reminder_new.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Figma"
+            ]
+        },
+        {
+            "name": "Jokes App",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/fitness_app.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Firebase"
+            ]
+        },
+        {
+            "name": "3D Platformer",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/ai_chatbot.png",
+            "keywords": [
+                "Python",
+                "Machine Learning",
+                "OpenAI API"
+            ]
+        }
+    ],
+    "sideProjects": [
+        {
+            "name": "Discord Chatbot",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/ai_chatbot.png",
+            "keywords": [
+                "Python",
+                "Machine Learning",
+                "OpenAI API"
+            ]
+        },
+        {
+            "name": "Bero Chat",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/fitness_app.png",
+            "keywords": [
+                "Python"
+            ]
+        },
+        {
+            "name": "To Get Her",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/ai_chatbot.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Piskel"
+            ]
+        },
+        {
+            "name": "Mission: Drift Classic",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/fitness_app.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Blender"
+            ]
+        },
+        {
+            "name": "Temple Game",
+            "url": "https://www.wikipedia.org/",
+            "image": "../img/projects/fitness_app.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Blender"
+            ]
+        }
+    ]
+}
