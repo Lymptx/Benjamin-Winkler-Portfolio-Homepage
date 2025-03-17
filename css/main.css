@@ -3,133 +3,33 @@ body {
     background-color: #0e0e0e;
     display: flex;
     margin: 0;
-}
-
-/* Sidebar container */
-.sidebar {
-    width: 15%;
-    height: 100vh;
-    background-color: #151515;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-}
-
-/* Title */
-.sidebar h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-/* Remove default list styling */
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-/* Links styling */
-.sidebar a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-/* Hover effect */
-.sidebar a:hover {
-    color: #f0f0f0;
-}
-
-/* Technical Skills Section */
-.technical-skills {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.technical-skills h3 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: white;
-}
-
-/* Skills Grid */
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    max-width: 200px;
-}
-
-.skills-grid span {
-    background-color: #1e1e1e;
-    color: #b0b0b0;
-    font-size: 0.9rem;
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    text-align: center;
-    white-space: nowrap;
-}
-
-
-/* Body content (add margin to prevent overlap with sidebar) */
-body {
-    margin-left: 20%;
-    font-family: Arial, sans-serif;
+    margin-left: 350px;
 }
 
 .main-content {
-    width: 80%;
-    padding: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 50px;
     margin-left: 50px;
+    text-align: center;
 }
+
 
 .section {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: left;
-    margin-bottom: 3.5rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    row-gap: 40px;
+    margin-bottom: 1rem;
 }
 
-.project_container_timo {
-    position: relative;
-    width: 400px;
-    height: 350px;
-    background: #151515;
-    background-image: url('../img/projects/timo_website.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px rgb(44, 44, 44) solid;
-}
 
 .project_container {
     position: relative;
-    width: 400px;
+    width: 450px;
     height: 400px;
     background: rgba(0, 0, 0, 0.6);
     background-repeat: no-repeat;
@@ -141,6 +41,7 @@ body {
     border: 1px rgb(44, 44, 44) solid;
 }
 
+
 .project_container:empty {
     background-color: white;
 }
@@ -149,6 +50,37 @@ h1 {
     font-size: 4rem;
     color: white;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.BWname {
+    font-size: 6.5rem;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family: "Great Vibes";
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(206, 206, 206);
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 .overlay {
@@ -192,194 +124,7 @@ h1 {
     border-radius: 10px;
 }
 
-/* General Reset */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0e0e0e;
-    display: flex;
-    margin: 0;
-}
 
-/* Sidebar */
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    background-color: #151515;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    overflow-y: auto;
-    transition: transform 0.3s ease-in-out;
-}
-
-/* Hide Sidebar on Mobile */
-@media (max-width: 768px) {
-    .sidebar {
-        transform: translateX(-100%);
-        position: fixed;
-        width: 260px;
-    }
-
-    .sidebar.active {
-        transform: translateX(0);
-    }
-}
-
-/* Sidebar Title */
-.sidebar h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* Navigation Links */
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    text-align: center;
-}
-
-.sidebar a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
-    padding: 5px 10px;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-
-.sidebar a:hover {
-    color: #f0f0f0;
-}
-
-/* Close Button */
-.close-btn {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    cursor: pointer;
-}
-
-/* Show Close Button on Mobile */
-@media (max-width: 768px) {
-    .close-btn {
-        display: block;
-    }
-}
-
-/* Hamburger Button */
-.hamburger {
-    display: none;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-    z-index: 15;
-}
-
-/* Show Hamburger Button on Mobile */
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-}
-
-/* Technical Skills */
-.technical-skills {
-    margin-top: 40px;
-    text-align: center;
-    width: 100%;
-}
-
-.technical-skills h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: white;
-}
-
-/* Skills Grid */
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    max-width: 220px;
-}
-
-.skills-grid span {
-    background-color: #1e1e1e;
-    color: #b0b0b0;
-    font-size: 0.9rem;
-    padding: 6px 10px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    text-align: center;
-    white-space: nowrap;
-}
-
-/* Main Content */
-body {
-    margin-left: 260px;
-}
-
-.main-content {
-    width: calc(100% - 260px);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 50px;
-}
-
-/* Responsive Layout for Projects */
-.section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: left;
-    margin-bottom: 3.5rem;
-}
-
-/* Project Containers */
-.project_container,
-.project_container_timo {
-    position: relative;
-    width: 30%;
-    height: 350px;
-    background: #151515;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid rgb(44, 44, 44);
-}
 
 /* Full-width for Mobile */
 @media (max-width: 768px) {
@@ -389,7 +134,9 @@ body {
 
     .main-content {
         width: 100%;
-        padding: 20px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 0px;
     }
 
     .section {
@@ -398,7 +145,97 @@ body {
 
     .project_container,
     .project_container_timo {
-        width: 100%;
+        width: 90%;
         height: 300px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* By default, make the elements hidden on small screens */
+
+#about-me-container {
+    display: none;
+    /* Hide these elements by default */
+}
+
+
+
+/* About Me Section */
+.about-me {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+}
+
+.about-me-desktop {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    text-align: center;
+}
+
+
+h4 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.about-me p,
+.about-me-desktop p {
+    font-size: 1.25rem;
+    color: #b0b0b0;
+    margin: 0;
+}
+
+/* Technical Skills Section */
+.main-technical-skills {
+    width: 45%;
+    /* Technical skills section takes up 45% of the width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+
+    .about-me,
+    .main-technical-skills {
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
+
+    #about-me-container {
+        display: flex;
+        justify-content: center;
+        /* Distribute space between the sections */
+        flex-direction: column;
+        /* Stack the sections vertically on small screens */
+        align-items: center;
+        /* Center align the sections */
+        /* Align items at the top */
+        gap: 20px;
+        width: 100%;
     }
 }

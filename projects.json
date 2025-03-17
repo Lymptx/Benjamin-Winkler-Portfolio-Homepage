@@ -65,6 +65,17 @@
     ],
     "projectsInDevelopment": [
         {
+            "name": "This website ;)",
+            "url": "https://www.benjamin.winkler.com/",
+            "image": "",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Figma"
+            ]
+        },
+        {
             "name": "Friendly Reminder",
             "url": "https://www.wikipedia.org/",
             "image": "",

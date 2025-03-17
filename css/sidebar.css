@@ -1,0 +1,157 @@
+/* Sidebar */
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    background-color: #151515;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hide Sidebar on Mobile */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        position: fixed;
+        width: 260px;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+}
+
+/* Sidebar Title */
+.sidebar h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navigation Links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    color: #f0f0f0;
+}
+
+/* Close Button */
+.close-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+/* Show Close Button on Mobile */
+@media (max-width: 768px) {
+    .close-btn {
+        display: block;
+    }
+}
+
+/* Hamburger Button */
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 15;
+}
+
+/* Show Hamburger Button on Mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: none;
+        /* instead of block */
+    }
+}
+
+
+
+/* Ensure parent container is centered */
+.technical-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers everything inside */
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Center skills-grid itself */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    /* Make sure it takes up space */
+    max-width: 250px;
+    /* Adjust if needed */
+}
+
+
+.technical-skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.skills-grid span {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    text-align: center;
+    white-space: nowrap;
+}
