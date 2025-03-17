@@ -62,7 +62,7 @@ fetch('projects.json')
 
                 // Create the external link icon
                 const linkIcon = document.createElement('img');
-                linkIcon.src = "../img/ext_link.svg"; // Ensure this icon exists in your project folder
+                linkIcon.src = "img/ext_link.svg"; // Ensure this icon exists in your project folder
                 linkIcon.alt = "Link Icon";
 
                 // Append elements together

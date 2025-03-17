@@ -3,7 +3,7 @@
         {
             "name": "Athlete Website",
             "url": "https://timo-hinterndorfer.com/",
-            "image": "../img/projects/timo_website.png",
+            "image": "img/projects/timo_website.png",
             "keywords": [
                 "HTML",
                 "CSS",
@@ -14,7 +14,7 @@
         {
             "name": "Mission Drift: Lost Tracks",
             "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftLostTracks",
-            "image": "../img/projects/mission_drift.png",
+            "image": "img/projects/mission_drift.png",
             "keywords": [
                 "Unity",
                 "C#",
@@ -25,7 +25,7 @@
         {
             "name": "Save the Sun",
             "url": "https://play.google.com/store/apps/details?id=com.BEROGames.SavetheSun&hl=de",
-            "image": "../img/projects/Save_the_Sun.png",
+            "image": "img/projects/Save_the_Sun.png",
             "keywords": [
                 "Unity",
                 "C#",
@@ -35,7 +35,7 @@
         {
             "name": "Off the Path",
             "url": "https://bero-games.itch.io/off-the-path",
-            "image": "../img/projects/Off_the_path.png",
+            "image": "img/projects/Off_the_path.png",
             "keywords": [
                 "Unreal Engine",
                 "C++",
@@ -45,7 +45,7 @@
         {
             "name": "Buxicution",
             "url": "https://play.google.com/store/apps/details?id=com.BEROGames.Buxicution&hl",
-            "image": "../img/projects/Buxicution.png",
+            "image": "img/projects/Buxicution.png",
             "keywords": [
                 "Unity",
                 "C#",
@@ -55,7 +55,7 @@
         {
             "name": "Inaccurate Weather",
             "url": "https://www.wikipedia.org/",
-            "image": "../img/projects/",
+            "image": "img/projects/",
             "keywords": [
                 "Flutter",
                 "Dart",
