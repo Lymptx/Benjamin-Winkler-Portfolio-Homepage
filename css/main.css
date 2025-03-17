@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway";
     background-color: #0e0e0e;
     display: flex;
     margin: 0;
@@ -56,6 +56,8 @@ h1 {
     align-items: center;
     padding: 30px;
     padding-bottom: 0;
+    font-family: "Big Shoulders Stencil";
+
 }
 
 .BWname {
@@ -67,7 +69,9 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-    font-family: "Great Vibes";
+    font-family: "Big Shoulders Stencil";
+    font-weight: 900;
+    transform: scaleX(1.2);
 }
 
 h2 {
@@ -197,6 +201,7 @@ h4 {
     color: white;
     margin: 0;
     margin-bottom: 30px;
+    font-family: "Big Shoulders Stencil";
 }
 
 .about-me p,

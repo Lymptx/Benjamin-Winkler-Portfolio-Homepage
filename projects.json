@@ -54,7 +54,7 @@
         },
         {
             "name": "Inaccurate Weather",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "img/projects/",
             "keywords": [
                 "Flutter",
@@ -76,18 +76,8 @@
             ]
         },
         {
-            "name": "Friendly Reminder",
-            "url": "https://www.wikipedia.org/",
-            "image": "",
-            "keywords": [
-                "Flutter",
-                "Dart",
-                "Figma"
-            ]
-        },
-        {
             "name": "Jokes App",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Flutter",
@@ -97,7 +87,7 @@
         },
         {
             "name": "3D Platformer",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Python",
@@ -109,7 +99,7 @@
     "sideProjects": [
         {
             "name": "Discord Chatbot",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Python",
@@ -119,7 +109,7 @@
         },
         {
             "name": "Bero Chat",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Python"
@@ -127,7 +117,7 @@
         },
         {
             "name": "To Get Her",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Unity",
@@ -137,7 +127,7 @@
         },
         {
             "name": "Mission: Drift Classic",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Unity",
@@ -147,7 +137,7 @@
         },
         {
             "name": "Temple Game",
-            "url": "https://www.wikipedia.org/",
+            "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
                 "Unity",
