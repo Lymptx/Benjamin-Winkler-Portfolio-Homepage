@@ -67,7 +67,7 @@
         {
             "name": "This website ;)",
             "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "image": "img/projects/own_homepage.png",
             "keywords": [
                 "HTML",
                 "CSS",
@@ -100,11 +100,11 @@
         {
             "name": "Discord Chatbot",
             "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "image": "img/projects/python_discord_bot.png",
             "keywords": [
                 "Python",
-                "Machine Learning",
-                "OpenAI API"
+                "Discord",
+                "Bot API"
             ]
         },
         {
