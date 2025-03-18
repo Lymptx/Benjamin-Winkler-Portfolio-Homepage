@@ -10,7 +10,29 @@
                 "JavaScript",
                 "Figma"
             ],
-            "backsidetxt": "Test"
+            "backsidetxt": "This is my biggest (finished) Website-Project to date. It is a personal website for a long distance Runner for the purpose of showcasing competition achievements and record times."
+        },
+        {
+            "name": "Inaccurate Weather",
+            "url": "https://www.benjamin.winkler.com/",
+            "image": "img/projects/inaccu_weather.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Figma"
+            ],
+            "backsidetxt": "The World's Most Useless Weather App. Tired of apps that actually try to help you? Enter INacurate Weather — a completely pointless but beautifully designed app that delivers imaginary weather forecasts you don’t need. There are many extreme weather scenarios like 'Acid rain' or 'Cotton candy clouds'"
+        },
+        {
+            "name": "Save the Sun",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.SavetheSun&hl=de",
+            "image": "img/projects/Save_the_Sun.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Piskel"
+            ],
+            "backsidetxt": "This 2D puzzle platformer is my most successful mobile game to date. It has over 50k downloads and won the Google Play Award: Top 10 games of the month"
         },
         {
             "name": "Mission Drift: Lost Tracks",
@@ -21,27 +43,8 @@
                 "C#",
                 "Blender",
                 "Gimp"
-            ]
-        },
-        {
-            "name": "Save the Sun",
-            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.SavetheSun&hl=de",
-            "image": "img/projects/Save_the_Sun.png",
-            "keywords": [
-                "Unity",
-                "C#",
-                "Piskel"
-            ]
-        },
-        {
-            "name": "Off the Path",
-            "url": "https://bero-games.itch.io/off-the-path",
-            "image": "img/projects/Off_the_path.png",
-            "keywords": [
-                "Unreal Engine",
-                "C++",
-                "Blender"
-            ]
+            ],
+            "backsidetxt": "Mission Drift: Lost Tracks is a driving game all about mastering the perfect drift. Explore a small open map with four unique biomes or race for the best time on four tracks. Slide through muddy forests, sandy deserts, icy lakes, and volcanic terrain. Customize your car with different paint and colors to make it your own!"
         },
         {
             "name": "Buxicution",
@@ -51,17 +54,19 @@
                 "Unity",
                 "C#",
                 "Piskel"
-            ]
+            ],
+            "backsidetxt": "Buxicution is a fun little bullet-hell game. Bugs have taken over and are feasting on the energy of your computer. You - the friendly Energy ball, want to get that power back. In order to save all the energy, you start a BUXICUTION to execute them all."
         },
         {
-            "name": "Inaccurate Weather",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "img/projects/",
+            "name": "Off the Path",
+            "url": "https://bero-games.itch.io/off-the-path",
+            "image": "img/projects/Off_the_path.png",
             "keywords": [
-                "Flutter",
-                "Dart",
-                "Figma"
-            ]
+                "Unreal Engine",
+                "C++",
+                "Blender"
+            ],
+            "backsidetxt": "Off the path is a beautful relaxing storygame about a group of friends getting lost in the mountains. It was developed in Unreal Engine for a game jam."
         }
     ],
     "projectsInDevelopment": [
@@ -74,7 +79,8 @@
                 "CSS",
                 "Javascript",
                 "Figma"
-            ]
+            ],
+            "backsidetxt": "I am currently developing my personal website as a central hub to showcase my apps, games, and other programming projects in a more organized and accessible way. This will serve as a portfolio where I can share my work, updates, and future projects with a wider audience."
         },
         {
             "name": "Jokes App",
@@ -84,7 +90,8 @@
                 "Flutter",
                 "Dart",
                 "Firebase"
-            ]
+            ],
+            "backsidetxt": "This app, currently in development with Flutter, delivers a daily joke to users, allowing them to like, share, and create their own. The funniest joke of the day wins, making it a fun way to engage with the community and enjoy humor together."
         },
         {
             "name": "3D Platformer",
@@ -106,7 +113,17 @@
                 "Python",
                 "Discord",
                 "Bot API"
-            ]
+            ],
+            "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
+        },
+        {
+            "name": "Edge & Color detection algorithm",
+            "url": "https://www.benjamin.winkler.com/",
+            "image": "img/projects/Edge_detection_algo.png",
+            "keywords": [
+                "Python"
+            ],
+            "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
         },
         {
             "name": "Bero Chat",

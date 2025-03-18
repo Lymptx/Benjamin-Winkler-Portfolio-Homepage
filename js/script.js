@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 fetch('projects.json')
     .then(response => response.json())
     .then(data => {
-        // Define the sections and their corresponding JSON keys
         const sections = [
             { key: "mainProjects", containerId: "main-projects-container" },
             { key: "projectsInDevelopment", containerId: "projects-in-development-container" },
             { key: "sideProjects", containerId: "side-projects-container" }
         ];
 
-        // Loop through each section and populate it with projects
+        let currentlyFlipped = null;
+
         sections.forEach(section => {
             const container = document.getElementById(section.containerId);
             if (!container) {
@@ -31,20 +31,26 @@ fetch('projects.json')
                 return;
             }
 
-            // Get the corresponding project array from JSON
             const projects = data[section.key];
 
             projects.forEach(project => {
-                // Create a new div for each project
+                // Create project container
                 const projectContainer = document.createElement('div');
                 projectContainer.classList.add('project_container');
-                projectContainer.style.backgroundImage = `url('${project.image}')`;
 
-                // Create the overlay div
+                // Inner wrapper for flipping effect
+                const projectInner = document.createElement('div');
+                projectInner.classList.add('project_inner');
+
+                // Front side
+                const projectFront = document.createElement('div');
+                projectFront.classList.add('project_front');
+                projectFront.style.backgroundImage = `url('${project.image}')`;
+
+                // Overlay content
                 const overlay = document.createElement('div');
                 overlay.classList.add('overlay');
 
-                // Create the keywords container
                 const keywordsDiv = document.createElement('div');
                 keywordsDiv.classList.add('keywords');
                 project.keywords.forEach(keyword => {
@@ -54,22 +60,52 @@ fetch('projects.json')
                     keywordsDiv.appendChild(keywordSpan);
                 });
 
-                // Create the project link
                 const link = document.createElement('a');
                 link.href = project.url;
                 link.target = '_blank';
                 link.textContent = project.name;
 
-                // Create the external link icon
                 const linkIcon = document.createElement('img');
-                linkIcon.src = "img/ext_link.svg"; // Ensure this icon exists in your project folder
+                linkIcon.src = "img/ext_link.svg";
                 linkIcon.alt = "Link Icon";
 
-                // Append elements together
                 link.appendChild(linkIcon);
                 overlay.appendChild(keywordsDiv);
                 overlay.appendChild(link);
-                projectContainer.appendChild(overlay);
+                projectFront.appendChild(overlay);
+
+                // Back side
+                const projectBack = document.createElement('div');
+                projectBack.classList.add('project_back');
+
+                // Create a paragraph for backside text
+                const backText = document.createElement('p');
+                backText.classList.add('back_text'); // Add class for styling
+                backText.textContent = project.backsidetxt;
+
+                projectBack.appendChild(backText);
+
+                // Append front & back to inner wrapper
+                projectInner.appendChild(projectFront);
+                projectInner.appendChild(projectBack);
+                projectContainer.appendChild(projectInner);
+
+                // Click event to flip the card
+                projectContainer.addEventListener('click', () => {
+                    if (currentlyFlipped && currentlyFlipped !== projectContainer) {
+                        currentlyFlipped.classList.remove('flipped');
+                    }
+
+                    const isFlipped = projectContainer.classList.contains('flipped');
+                    if (isFlipped) {
+                        projectContainer.classList.remove('flipped');
+                        currentlyFlipped = null;
+                    } else {
+                        projectContainer.classList.add('flipped');
+                        currentlyFlipped = projectContainer;
+                    }
+                });
+
                 container.appendChild(projectContainer);
             });
         });
