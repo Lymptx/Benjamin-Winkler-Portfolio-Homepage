@@ -73,7 +73,7 @@
         {
             "name": "This website ;)",
             "url": "https://www.benjamin.winkler.com/",
-            "image": "img/projects/own_homepage.png",
+            "image": "img/projects/own_website.png",
             "keywords": [
                 "HTML",
                 "CSS",
@@ -84,7 +84,7 @@
         },
         {
             "name": "3D Temple Game",
-            "url": "https://www.benjamin.winkler.com/",
+            "url": "",
             "image": "img/projects/temple.png",
             "keywords": [
                 "Unreal Engine",
@@ -95,8 +95,8 @@
         },
         {
             "name": "Friendly Reminder",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "url": "",
+            "image": "img/projects/Friendly_Reminder_new.png",
             "keywords": [
                 "Flutter",
                 "Dart",
@@ -108,7 +108,7 @@
     "sideProjects": [
         {
             "name": "Discord Chatbot",
-            "url": "https://www.benjamin.winkler.com/",
+            "url": "",
             "image": "img/projects/python_discord_bot.png",
             "keywords": [
                 "Python",
@@ -119,7 +119,7 @@
         },
         {
             "name": "Edge & Color detection algorithm",
-            "url": "https://www.benjamin.winkler.com/",
+            "url": "",
             "image": "img/projects/Edge_detection_algo.png",
             "keywords": [
                 "Python"
@@ -128,16 +128,16 @@
         },
         {
             "name": "Bero Chat",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "url": "",
+            "image": "img/projects/bero_chat.png",
             "keywords": [
                 "Python"
             ]
         },
         {
             "name": "To Get Her",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "url": "https://bero-games.itch.io/to-get-her",
+            "image": "img/projects/together.png",
             "keywords": [
                 "Unity",
                 "C#",
@@ -146,8 +146,8 @@
         },
         {
             "name": "Mission: Drift Classic",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftClassic&hl=en",
+            "image": "img/projects/missiondrift.png",
             "keywords": [
                 "Unity",
                 "C#",
@@ -156,7 +156,7 @@
         },
         {
             "name": "Hotel Management Software",
-            "url": "https://www.benjamin.winkler.com/",
+            "url": "",
             "image": "img/projects/hotel_management.png",
             "keywords": [
                 "Unity",

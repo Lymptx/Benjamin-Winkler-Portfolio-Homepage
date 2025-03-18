@@ -47,6 +47,24 @@ fetch('projects.json')
                 projectFront.classList.add('project_front');
                 projectFront.style.backgroundImage = `url('${project.image}')`;
 
+                // Corner icon container (as a link if URL exists)
+                const iconWrapper = document.createElement('div');
+                iconWrapper.classList.add('corner_icon_wrapper');
+
+                const projectLink = document.createElement('a');
+                projectLink.href = project.url ? project.url : "#";
+                projectLink.target = "_blank";
+                projectLink.classList.add('corner_icon_link');
+
+                const projectIcon = document.createElement('img');
+                projectIcon.classList.add('corner_icon');
+                projectIcon.src = "./img/flip_icon.png";
+                projectIcon.alt = "Corner Icon";
+
+                projectLink.appendChild(projectIcon);
+                iconWrapper.appendChild(projectLink);
+                projectFront.appendChild(iconWrapper);
+
                 // Overlay content
                 const overlay = document.createElement('div');
                 overlay.classList.add('overlay');
@@ -65,11 +83,13 @@ fetch('projects.json')
                 link.target = '_blank';
                 link.textContent = project.name;
 
-                const linkIcon = document.createElement('img');
-                linkIcon.src = "img/ext_link.svg";
-                linkIcon.alt = "Link Icon";
+                if (project.url) {
+                    const linkIcon = document.createElement('img');
+                    linkIcon.src = "img/ext_link.svg";
+                    linkIcon.alt = "Link Icon";
+                    link.appendChild(linkIcon);
+                }
 
-                link.appendChild(linkIcon);
                 overlay.appendChild(keywordsDiv);
                 overlay.appendChild(link);
                 projectFront.appendChild(overlay);
@@ -80,7 +100,7 @@ fetch('projects.json')
 
                 // Create a paragraph for backside text
                 const backText = document.createElement('p');
-                backText.classList.add('back_text'); // Add class for styling
+                backText.classList.add('back_text');
                 backText.textContent = project.backsidetxt;
 
                 projectBack.appendChild(backText);
@@ -111,3 +131,4 @@ fetch('projects.json')
         });
     })
     .catch(error => console.error('Error loading the projects:', error));
+
