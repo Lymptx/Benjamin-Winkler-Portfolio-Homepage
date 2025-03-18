@@ -83,7 +83,18 @@
             "backsidetxt": "I am currently developing my personal website as a central hub to showcase my apps, games, and other programming projects in a more organized and accessible way. This will serve as a portfolio where I can share my work, updates, and future projects with a wider audience."
         },
         {
-            "name": "Jokes App",
+            "name": "3D Temple Game",
+            "url": "https://www.benjamin.winkler.com/",
+            "image": "img/projects/temple.png",
+            "keywords": [
+                "Unreal Engine",
+                "C++",
+                "Blender"
+            ],
+            "backsidetxt": "This game expands on the idea from 'Off the Path' adding a more complex gameplay loop, a fleshed-out story as well es a bigger world for the game to explore. Think of 'Off the Path' as the game's first concept, and this is the fully developed version."
+        },
+        {
+            "name": "Friendly Reminder",
             "url": "https://www.benjamin.winkler.com/",
             "image": "",
             "keywords": [
@@ -92,16 +103,6 @@
                 "Firebase"
             ],
             "backsidetxt": "This app, currently in development with Flutter, delivers a daily joke to users, allowing them to like, share, and create their own. The funniest joke of the day wins, making it a fun way to engage with the community and enjoy humor together."
-        },
-        {
-            "name": "3D Platformer",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "",
-            "keywords": [
-                "Python",
-                "Machine Learning",
-                "OpenAI API"
-            ]
         }
     ],
     "sideProjects": [
@@ -154,9 +155,9 @@
             ]
         },
         {
-            "name": "Temple Game",
+            "name": "Hotel Management Software",
             "url": "https://www.benjamin.winkler.com/",
-            "image": "",
+            "image": "img/projects/hotel_management.png",
             "keywords": [
                 "Unity",
                 "C#",

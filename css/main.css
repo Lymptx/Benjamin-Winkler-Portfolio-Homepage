@@ -55,6 +55,17 @@ h1 {
     transform: scaleX(1.2);
 }
 
+.BWnamelogo {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
 h2 {
     font-size: 1.5rem;
     color: rgb(206, 206, 206);
@@ -71,6 +82,22 @@ h2 {
 
 
 /* Full-width for Mobile */
+
+@media (max-width: 1200px) {
+
+    .BWnamelogo {
+        width: 60%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 70px;
+    }
+
+}
+
+
+
 @media (max-width: 768px) {
     body {
         margin-left: 0;
@@ -89,6 +116,15 @@ h2 {
 
     h1 {
         font-size: 3rem;
+    }
+
+    .BWnamelogo {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 20px;
     }
 
 }
