@@ -13,23 +13,13 @@
             "backsidetxt": "This is my biggest (finished) Website-Project to date. It is a personal website for a long distance Runner for the purpose of showcasing competition achievements and record times."
         },
         {
-            "name": "Inaccurate Weather",
-            "url": "https://www.benjamin.winkler.com/",
-            "image": "img/projects/inaccu_weather.png",
-            "keywords": [
-                "Flutter",
-                "Dart",
-                "Figma"
-            ],
-            "backsidetxt": "The World's Most Useless Weather App. Tired of apps that actually try to help you? Enter INacurate Weather — a completely pointless but beautifully designed app that delivers imaginary weather forecasts you don’t need. There are many extreme weather scenarios like 'Acid rain' or 'Cotton candy clouds'"
-        },
-        {
             "name": "Save the Sun",
             "url": "https://play.google.com/store/apps/details?id=com.BEROGames.SavetheSun&hl=de",
             "image": "img/projects/Save_the_Sun.png",
             "keywords": [
                 "Unity",
                 "C#",
+                "Gimp",
                 "Piskel"
             ],
             "backsidetxt": "This 2D puzzle platformer is my most successful mobile game to date. It has over 50k downloads and won the Google Play Award: Top 10 games of the month"
@@ -45,6 +35,17 @@
                 "Gimp"
             ],
             "backsidetxt": "Mission Drift: Lost Tracks is a driving game all about mastering the perfect drift. Explore a small open map with four unique biomes or race for the best time on four tracks. Slide through muddy forests, sandy deserts, icy lakes, and volcanic terrain. Customize your car with different paint and colors to make it your own!"
+        },
+        {
+            "name": "Inaccurate Weather",
+            "url": "https://www.benjamin.winkler.com/",
+            "image": "img/projects/inaccu_weather.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Figma"
+            ],
+            "backsidetxt": "The World's Most Useless Weather App. Tired of apps that actually try to help you? Enter INacurate Weather — a completely pointless but beautifully designed app that delivers imaginary weather forecasts you don’t need. There are many extreme weather scenarios like 'Acid rain' or 'Cotton candy clouds'"
         },
         {
             "name": "Buxicution",
@@ -107,6 +108,65 @@
     ],
     "sideProjects": [
         {
+            "name": "Hotel Management Software",
+            "url": "",
+            "image": "img/projects/hotel_management.png",
+            "keywords": [
+                "PHP",
+                "SQL",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "backsidetxt": "Although the visual frontend of this project is well-polished, the primary focus was on the backend of web development, particularly PHP and database management with SQL. The project is a hotel management system that allows users to create profiles, make bookings, and manage reservations, while administrators have full control over data processing and management."
+        },
+        {
+            "name": "Edge & Color detection algorithm",
+            "url": "",
+            "image": "img/projects/Edge_detection_algo.png",
+            "keywords": [
+                "Python",
+                "Pillow",
+                "OpenCV"
+            ],
+            "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
+        },
+        {
+            "name": "To get Her",
+            "url": "https://bero-games.itch.io/to-get-her",
+            "image": "img/projects/together.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Piskel"
+            ],
+            "backsidetxt": "'To get HER' is a short stealth game set in some restaurants, where you play as a girl who trys to stay unseen, while completing the quest of stealing all the ingredients while staying hidden from the security guards."
+        },
+        {
+            "name": "Bero Chat",
+            "url": "",
+            "image": "img/projects/bero_chat.png",
+            "keywords": [
+                "Python",
+                "socket",
+                "threading",
+                "tkinter",
+                "turtle"
+            ],
+            "backsidetxt": "This side project was my first hands-on experience with networking in Python. It includes a basic client-server setup along with a simple visual interface for a chat application. While it's a small step, it was a great way to explore real-time messaging and see networking concepts in action!"
+        },
+        {
+            "name": "Mission Drift: Classic",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftClassic&hl=en",
+            "image": "img/projects/missiondrift.png",
+            "keywords": [
+                "Unity",
+                "C#",
+                "Blender"
+            ],
+            "backsidetxt": "This game is the smaller version of 'Mission Drift: Lost Tracks'. Here you have one mission - To drift, slide your way across the map while destroying as many boxes as possible."
+        },
+        {
             "name": "Discord Chatbot",
             "url": "",
             "image": "img/projects/python_discord_bot.png",
@@ -116,53 +176,6 @@
                 "Bot API"
             ],
             "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
-        },
-        {
-            "name": "Edge & Color detection algorithm",
-            "url": "",
-            "image": "img/projects/Edge_detection_algo.png",
-            "keywords": [
-                "Python"
-            ],
-            "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
-        },
-        {
-            "name": "Bero Chat",
-            "url": "",
-            "image": "img/projects/bero_chat.png",
-            "keywords": [
-                "Python"
-            ]
-        },
-        {
-            "name": "To Get Her",
-            "url": "https://bero-games.itch.io/to-get-her",
-            "image": "img/projects/together.png",
-            "keywords": [
-                "Unity",
-                "C#",
-                "Piskel"
-            ]
-        },
-        {
-            "name": "Mission: Drift Classic",
-            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftClassic&hl=en",
-            "image": "img/projects/missiondrift.png",
-            "keywords": [
-                "Unity",
-                "C#",
-                "Blender"
-            ]
-        },
-        {
-            "name": "Hotel Management Software",
-            "url": "",
-            "image": "img/projects/hotel_management.png",
-            "keywords": [
-                "Unity",
-                "C#",
-                "Blender"
-            ]
         }
     ]
 }

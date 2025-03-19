@@ -52,8 +52,6 @@ fetch('projects.json')
                 iconWrapper.classList.add('corner_icon_wrapper');
 
                 const projectLink = document.createElement('a');
-                projectLink.href = project.url ? project.url : "#";
-                projectLink.target = "_blank";
                 projectLink.classList.add('corner_icon_link');
 
                 const projectIcon = document.createElement('img');
@@ -79,11 +77,12 @@ fetch('projects.json')
                 });
 
                 const link = document.createElement('a');
-                link.href = project.url;
                 link.target = '_blank';
                 link.textContent = project.name;
 
+                //if the json has a link, make it a link with the link icon
                 if (project.url) {
+                    link.href = project.url;
                     const linkIcon = document.createElement('img');
                     linkIcon.src = "img/ext_link.svg";
                     linkIcon.alt = "Link Icon";

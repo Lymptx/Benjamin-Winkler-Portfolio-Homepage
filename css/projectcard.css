@@ -110,24 +110,28 @@
 
 .corner_icon_wrapper {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 25px;
-    height: 25px;
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
     background: rgba(255, 255, 255, 0.7);
-    /* White with 50% opacity */
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px;
+    padding: 0;
+    box-sizing: border-box;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .corner_icon {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    display: block;
 }
+
+
 
 
 /* Full-width for Mobile */
