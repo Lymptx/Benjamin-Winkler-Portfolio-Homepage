@@ -105,6 +105,7 @@ h2 {
 @media (max-height: 850px) {
     body {
         margin-left: 0;
+        margin-right: 0px;
     }
 
     .main-content {
@@ -138,6 +139,7 @@ h2 {
 @media (max-width: 900px) {
     body {
         margin-left: 0;
+        margin-right: 0px;
     }
 
     .main-content {
