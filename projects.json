@@ -90,7 +90,8 @@
             "keywords": [
                 "Unreal Engine",
                 "C++",
-                "Blender"
+                "Blender",
+                "Audacity"
             ],
             "backsidetxt": "This game expands on the idea from 'Off the Path' adding a more complex gameplay loop, a fleshed-out story as well es a bigger world for the game to explore. Think of 'Off the Path' as the game's first concept, and this is the fully developed version."
         },
@@ -101,9 +102,10 @@
             "keywords": [
                 "Flutter",
                 "Dart",
-                "Firebase"
+                "Firebase",
+                "Figma"
             ],
-            "backsidetxt": "This app, currently in development with Flutter, delivers a daily joke to users, allowing them to like, share, and create their own. The funniest joke of the day wins, making it a fun way to engage with the community and enjoy humor together."
+            "backsidetxt": "Built with Flutter, this app offers a smart way to stay connected with friends. It reminds users when they haven’t seen certain friends in a while and suggests activities tailored to their shared interests or past experiences. The app’s goal is to keep friendships alive by encouraging fun and engaging experiences, helping users to stay socially active and maintain lasting connections."
         }
     ],
     "sideProjects": [
