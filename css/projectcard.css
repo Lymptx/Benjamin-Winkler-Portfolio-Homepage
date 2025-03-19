@@ -3,6 +3,7 @@
     width: 450px;
     height: 400px;
     perspective: 1000px;
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
 }
 
 .project_inner {
@@ -27,25 +28,23 @@
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    /* Ensure padding & border don't change size */
     padding: 20px;
-    /* Keep padding equal */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-/* Front Side */
 .project_front {
     background: rgba(0, 0, 0, 0.6);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid rgb(44, 44, 44);
+    transition: transform 0.3s ease;
 }
 
-/* Back Side */
+/* Back side styling */
 .project_back {
     background-color: #151515;
     color: white;
@@ -53,20 +52,21 @@
     font-size: 1.2rem;
 }
 
-.back_text {
-    font-size: 1.25rem;
-    color: #b0b0b0;
-    margin: 0;
+/* Add hover effects to project container */
+.project_container:hover .project_front {
+    transform: scale(1.04);
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for project card */
+.project_container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
 }
 
 
 
-
-.project_container:empty {
-    background-color: white;
-}
-
-
+/* Overlay text and links */
 .overlay {
     position: absolute;
     bottom: 0;
@@ -93,6 +93,7 @@
     filter: brightness(0) invert(1);
 }
 
+/* Keywords container */
 .keywords {
     display: flex;
     gap: 5px;
@@ -132,13 +133,10 @@
 }
 
 
-
-
 /* Full-width for Mobile */
 @media (max-width: 768px) {
     .project_container {
         width: 90%;
         height: 300px;
     }
-
 }

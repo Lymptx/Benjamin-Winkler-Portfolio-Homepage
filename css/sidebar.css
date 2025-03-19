@@ -18,7 +18,43 @@
 }
 
 /* Hide Sidebar on Mobile */
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
+    .sidebar {
+        width: 300px;
+        height: 100vh;
+        background-color: #151515;
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+}
+
+/* Hide Sidebar if screen height too small to display whole sidebar */
+@media (max-height: 850px) {
+    .sidebar {
+        transform: translateX(-100%);
+        position: fixed;
+        width: 260px;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+}
+
+
+/* Hide Sidebar on Mobile */
+@media (max-width: 900px) {
     .sidebar {
         transform: translateX(-100%);
         position: fixed;
@@ -80,7 +116,7 @@
 }
 
 /* Show Close Button on Mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .close-btn {
         display: block;
     }
@@ -101,7 +137,7 @@
 }
 
 /* Show Hamburger Button on Mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .hamburger {
         display: none;
         /* instead of block */
