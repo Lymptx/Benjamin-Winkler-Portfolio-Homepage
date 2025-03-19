@@ -55,13 +55,12 @@
 /* Add hover effects to project container */
 .project_container:hover .project_front {
     transform: scale(1.04);
-    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
+
 }
 
 /* Hover effect for project card */
 .project_container:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
 }
 
 
