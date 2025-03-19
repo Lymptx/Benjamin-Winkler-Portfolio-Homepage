@@ -38,7 +38,7 @@
         },
         {
             "name": "Inaccurate Weather",
-            "url": "https://www.benjamin.winkler.com/",
+            "url": "",
             "image": "img/projects/inaccu_weather.png",
             "keywords": [
                 "Flutter",
