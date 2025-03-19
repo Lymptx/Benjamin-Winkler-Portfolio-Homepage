@@ -104,7 +104,7 @@ h2 {
 /* Hide Sidebar if screen height too small to display whole sidebar */
 @media (max-height: 850px) {
     body {
-        margin-left: 0;
+        margin-left: 250px;
         margin-right: 0px;
     }
 
@@ -135,10 +135,10 @@ h2 {
     }
 }
 
-
+/* Hide Sidebar on Mobile */
 @media (max-width: 900px) {
     body {
-        margin-left: 0;
+        margin-left: 0px;
         margin-right: 0px;
     }
 
@@ -177,9 +177,8 @@ h2 {
 
 
 
-/* By default, make the elements hidden on small screens */
 
-#about-me-container {
+#about-me-container .about-me, #about-me-container .main-technical-skills{
     display: none;
     /* Hide these elements by default */
 }
@@ -255,12 +254,21 @@ h4 {
         gap: 20px;
         width: 100%;
     }
+
+    #about-me-container .about-me {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center items horizontally */
+        justify-content: center;
+    }
 }
 
 
 
 
-/* Responsive Design for smaller screens */
+/* on mobile phones */
 @media (max-width: 850px) {
 
     .about-me,
@@ -281,5 +289,10 @@ h4 {
         /* Align items at the top */
         gap: 20px;
         width: 100%;
+    }
+
+    #about-me-container .about-me, #about-me-container .main-technical-skills{
+        display: flex;
+        /* show them again when viewed on mobile */
     }
 }
