@@ -139,3 +139,15 @@
         height: 300px;
     }
 }
+
+
+/* for 1080p (1920) */
+@media (max-width: 1700px) {
+    .project_container {
+        position: relative;
+        width: 350px;
+        height: 300px;
+        perspective: 1000px;
+        transition: transform 0.6s ease, box-shadow 0.3s ease;
+    }
+}

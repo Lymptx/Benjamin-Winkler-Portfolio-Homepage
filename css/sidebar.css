@@ -17,7 +17,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hide Sidebar on Mobile */
+
 @media (max-width: 1500px) {
     .sidebar {
         width: 300px;
@@ -39,16 +39,15 @@
 
 }
 
-/* Hide Sidebar if screen height too small to display whole sidebar */
+/* only half sidebar */
 @media (max-height: 850px) {
     .sidebar {
-        transform: translateX(-100%);
         position: fixed;
-        width: 260px;
+        width: 200px;
     }
 
-    .sidebar.active {
-        transform: translateX(0);
+    .about-me-desktop {
+        display: none;
     }
 }
 
