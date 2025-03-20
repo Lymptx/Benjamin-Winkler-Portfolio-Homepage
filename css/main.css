@@ -178,7 +178,8 @@ h2 {
 
 
 
-#about-me-container .about-me, #about-me-container .main-technical-skills{
+#about-me-container .about-me,
+#about-me-container .main-technical-skills {
     display: none;
     /* Hide these elements by default */
 }
@@ -187,7 +188,7 @@ h2 {
 
 /* About Me Section */
 .about-me {
-    width: 25%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -291,8 +292,13 @@ h4 {
         width: 100%;
     }
 
-    #about-me-container .about-me, #about-me-container .main-technical-skills{
+    #about-me-container .about-me,
+    #about-me-container .main-technical-skills {
+        width: 80%;
         display: flex;
-        /* show them again when viewed on mobile */
+        flex-direction: column;
+        align-items: center;
+        /* Center items horizontally */
+        justify-content: center;
     }
 }
