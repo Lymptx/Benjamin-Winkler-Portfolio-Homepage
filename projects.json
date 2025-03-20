@@ -131,7 +131,7 @@
                 "Pillow",
                 "OpenCV"
             ],
-            "backsidetxt": "This Discord bot allows users to play Tic-Tac-Toe and Rock, Paper, Scissors directly within a server. It includes basic game logic, score tracking, and ensures smooth gameplay with real-time updates. Users can compete against the bot, and the scores are stored persistently. Perfect for adding fun and interactive elements to any Discord server!"
+            "backsidetxt": "This side project was my first exploration of image processing in Python. With the help of the Pillow library, I developed a simple algorithm for detecting colors and edges in images. It was a great way to experiment with computer vision techniques and gain a deeper understanding of how digital images can be analyzed and modified!"
         },
         {
             "name": "To get Her",
