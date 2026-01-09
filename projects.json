@@ -1,6 +1,18 @@
 {
     "mainProjects": [
         {
+            "name": "Friendly Reminder",
+            "url": "https://timo-hinterndorfer.com/",
+            "image": "img/projects/friendly_reminder.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "Figma"
+            ],
+            "backsidetxt": "This is a social planning app designed to help friends stay conntected by making it easy to plan meetups, discover shared interests, and turn activity ideas into real plans through a simple, intuitive interface. (Releasing soon on IOS & Android)"
+        },
+        {
             "name": "Athlete Website",
             "url": "https://timo-hinterndorfer.com/",
             "image": "img/projects/timo_website.png",
@@ -90,22 +102,19 @@
             "keywords": [
                 "Unreal Engine",
                 "C++",
-                "Blender",
-                "Audacity"
+                "Blender"
             ],
             "backsidetxt": "This game expands on the idea from 'Off the Path' adding a more complex gameplay loop, a fleshed-out story as well es a bigger world for the game to explore. Think of 'Off the Path' as the game's first concept, and this is the fully developed version."
         },
         {
-            "name": "Friendly Reminder",
+            "name": "LeetCode",
             "url": "",
-            "image": "img/projects/Friendly_Reminder_new.png",
+            "image": "img/projects/leetcode.png",
             "keywords": [
-                "Flutter",
-                "Dart",
-                "Firebase",
-                "Figma"
+                "LeetCode",
+                "Python"
             ],
-            "backsidetxt": "Built with Flutter, this app offers a smart way to stay connected with friends. It reminds users when they haven’t seen certain friends in a while and suggests activities tailored to their shared interests or past experiences. The app’s goal is to keep friendships alive by encouraging fun and engaging experiences, helping users to stay socially active and maintain lasting connections."
+            "backsidetxt": "Always practicing data structures and algorithms - at minimum solving the daily LeetCode problem."
         }
     ],
     "sideProjects": [
