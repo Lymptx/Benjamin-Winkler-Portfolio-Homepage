@@ -2,7 +2,7 @@
     "mainProjects": [
         {
             "name": "Friendly Reminder",
-            "url": "https://timo-hinterndorfer.com/",
+            "url": "",
             "image": "img/projects/friendly_reminder.png",
             "keywords": [
                 "Flutter",
@@ -11,18 +11,6 @@
                 "Figma"
             ],
             "backsidetxt": "This is a social planning app designed to help friends stay conntected by making it easy to plan meetups, discover shared interests, and turn activity ideas into real plans through a simple, intuitive interface. (Releasing soon on IOS & Android)"
-        },
-        {
-            "name": "Athlete Website",
-            "url": "https://timo-hinterndorfer.com/",
-            "image": "img/projects/timo_website.png",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Figma"
-            ],
-            "backsidetxt": "This is my biggest (finished) Website-Project to date. It is a personal website for a long distance Runner for the purpose of showcasing competition achievements and record times."
         },
         {
             "name": "Save the Sun",
@@ -37,6 +25,18 @@
             "backsidetxt": "This 2D puzzle platformer is my most successful mobile game to date. It has over 50k downloads and won the Google Play Award: Top 10 games of the month"
         },
         {
+            "name": "Athlete Website",
+            "url": "https://timo-hinterndorfer.com/",
+            "image": "img/projects/timo_website.png",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Figma"
+            ],
+            "backsidetxt": "This is a personal website for a long distance Runner for the purpose of showcasing competition achievements and record times."
+        },
+        {
             "name": "Mission Drift: Lost Tracks",
             "url": "https://play.google.com/store/apps/details?id=com.BEROGames.MissionDriftLostTracks",
             "image": "img/projects/mission_drift.png",
@@ -49,26 +49,15 @@
             "backsidetxt": "Mission Drift: Lost Tracks is a driving game all about mastering the perfect drift. Explore a small open map with four unique biomes or race for the best time on four tracks. Slide through muddy forests, sandy deserts, icy lakes, and volcanic terrain. Customize your car with different paint and colors to make it your own!"
         },
         {
-            "name": "Inaccurate Weather",
+            "name": "Edge & Color detection algorithm",
             "url": "",
-            "image": "img/projects/inaccu_weather.png",
+            "image": "img/projects/Edge_detection_algo.png",
             "keywords": [
-                "Flutter",
-                "Dart",
-                "Figma"
+                "Python",
+                "Pillow",
+                "OpenCV"
             ],
-            "backsidetxt": "The World's Most Useless Weather App. Tired of apps that actually try to help you? Enter INacurate Weather — a completely pointless but beautifully designed app that delivers imaginary weather forecasts you don’t need. There are many extreme weather scenarios like 'Acid rain' or 'Cotton candy clouds'"
-        },
-        {
-            "name": "Buxicution",
-            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.Buxicution&hl",
-            "image": "img/projects/Buxicution.png",
-            "keywords": [
-                "Unity",
-                "C#",
-                "Piskel"
-            ],
-            "backsidetxt": "Buxicution is a fun little bullet-hell game. Bugs have taken over and are feasting on the energy of your computer. You - the friendly Energy ball, want to get that power back. In order to save all the energy, you start a BUXICUTION to execute them all."
+            "backsidetxt": "This side project was my first exploration of image processing in Python. With the help of the Pillow library, I developed a simple algorithm for detecting colors and edges in images. It was a great way to experiment with computer vision techniques and gain a deeper understanding of how digital images can be analyzed and modified!"
         },
         {
             "name": "Off the Path",
@@ -84,18 +73,6 @@
     ],
     "projectsInDevelopment": [
         {
-            "name": "This website ;)",
-            "url": "https://www.benjamin-winkler.com/",
-            "image": "img/projects/own_website.png",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "Figma"
-            ],
-            "backsidetxt": "I am currently developing my personal website as a central hub to showcase my apps, games, and other programming projects in a more organized and accessible way. This will serve as a portfolio where I can share my work, updates, and future projects with a wider audience."
-        },
-        {
             "name": "3D Temple Game",
             "url": "",
             "image": "img/projects/temple.png",
@@ -108,13 +85,25 @@
         },
         {
             "name": "LeetCode",
-            "url": "",
+            "url": "https://github.com/Lymptx",
             "image": "img/projects/leetcode.png",
             "keywords": [
                 "LeetCode",
                 "Python"
             ],
             "backsidetxt": "Always practicing data structures and algorithms - at minimum solving the daily LeetCode problem."
+        },
+        {
+            "name": "Friendly Reminder",
+            "url": "",
+            "image": "img/projects/friendly_reminder.png",
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "Figma"
+            ],
+            "backsidetxt": "This is a social planning app designed to help friends stay conntected by making it easy to plan meetups, discover shared interests, and turn activity ideas into real plans through a simple, intuitive interface. (Releasing soon on IOS & Android)"
         }
     ],
     "sideProjects": [
@@ -132,15 +121,15 @@
             "backsidetxt": "Although the visual frontend of this project is well-polished, the primary focus was on the backend of web development, particularly PHP and database management with SQL. The project is a hotel management system that allows users to create profiles, make bookings, and manage reservations, while administrators have full control over data processing and management."
         },
         {
-            "name": "Edge & Color detection algorithm",
-            "url": "",
-            "image": "img/projects/Edge_detection_algo.png",
+            "name": "Buxicution",
+            "url": "https://play.google.com/store/apps/details?id=com.BEROGames.Buxicution&hl",
+            "image": "img/projects/Buxicution.png",
             "keywords": [
-                "Python",
-                "Pillow",
-                "OpenCV"
+                "Unity",
+                "C#",
+                "Piskel"
             ],
-            "backsidetxt": "This side project was my first exploration of image processing in Python. With the help of the Pillow library, I developed a simple algorithm for detecting colors and edges in images. It was a great way to experiment with computer vision techniques and gain a deeper understanding of how digital images can be analyzed and modified!"
+            "backsidetxt": "Buxicution is a fun little bullet-hell game. Bugs have taken over and are feasting on the energy of your computer. You - the friendly Energy ball, want to get that power back. In order to save all the energy, you start a BUXICUTION to execute them all."
         },
         {
             "name": "To get Her",

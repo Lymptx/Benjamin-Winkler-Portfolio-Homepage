@@ -14,7 +14,15 @@
     },
     {
       "category": "Cloud & DevOps",
-      "skills": ["AWS", "Azure", "Docker", "Git", "GitHub"]
+    "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Firebase",
+        "Supabase"
+    ]
     },
     {
       "category": "Game Development",
