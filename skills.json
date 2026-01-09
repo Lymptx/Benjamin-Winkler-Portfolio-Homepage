@@ -1,0 +1,28 @@
+{
+  "technicalSkills": [
+    {
+      "category": "Backend & Systems Programming",
+      "skills": ["C", "C++", "C#", ".NET", "PHP", "Python", "SQL", "LDAP"]
+    },
+    {
+      "category": "Web Development (Full-Stack)",
+      "skills": ["TypeScript", "JavaScript", "HTML/CSS", "PHP", "SQL"]
+    },
+    {
+      "category": "Cross-Platform / Mobile",
+      "skills": ["Flutter (Dart)", "Kotlin"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": ["AWS", "Azure", "Docker", "Git", "GitHub"]
+    },
+    {
+      "category": "Game Development",
+      "skills": ["Unity (C#)", "Unreal Engine (C++)"]
+    },
+    {
+      "category": "UI/UX & 3D Pipelines",
+      "skills": ["Figma", "Blender 3D", "Photoshop"]
+    }
+  ]
+}
