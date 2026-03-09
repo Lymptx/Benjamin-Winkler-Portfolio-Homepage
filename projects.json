@@ -2,7 +2,7 @@
     "mainProjects": [
         {
             "name": "Friendly Reminder",
-            "url": "",
+            "url": "https://friendly-reminder-app.com/",
             "image": "img/projects/friendly_reminder.png",
             "keywords": [
                 "Flutter",
@@ -95,7 +95,7 @@
         },
         {
             "name": "Friendly Reminder",
-            "url": "",
+            "url": "https://friendly-reminder-app.com/",
             "image": "img/projects/friendly_reminder.png",
             "keywords": [
                 "Flutter",

@@ -2,7 +2,16 @@
   "technicalSkills": [
     {
       "category": "Backend & Systems Programming",
-      "skills": ["C", "C++", "C#", ".NET", "PHP", "Python", "SQL", "LDAP"]
+      "skills": [
+        "C",
+        "C++",
+        "C#",
+        ".NET",
+        "Python",
+        "PHP",
+        "SQL",
+        "LDAP"
+      ]
     },
     {
       "category": "Web Development (Full-Stack)",
@@ -10,7 +19,10 @@
     },
     {
       "category": "Cross-Platform / Mobile",
-      "skills": ["Flutter (Dart)", "Kotlin"]
+      "skills": [
+        "Flutter",
+        "Dart"
+      ]
     },
     {
       "category": "Cloud & DevOps",
@@ -29,7 +41,7 @@
       "skills": ["Unity (C#)", "Unreal Engine (C++)"]
     },
     {
-      "category": "UI/UX & 3D Pipelines",
+      "category": "UI/UX & 3D",
       "skills": ["Figma", "Blender 3D", "Photoshop"]
     }
   ]
