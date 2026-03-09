@@ -9,8 +9,7 @@
         ".NET",
         "Python",
         "PHP",
-        "SQL",
-        "LDAP"
+        "SQL"
       ]
     },
     {
@@ -27,13 +26,11 @@
     {
       "category": "Cloud & DevOps",
     "skills": [
-        "AWS",
         "Azure",
         "Docker",
-        "Git",
+        "AWS",
         "GitHub",
-        "Firebase",
-        "Supabase"
+        "Firebase"
     ]
     },
     {

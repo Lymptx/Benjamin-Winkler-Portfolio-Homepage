@@ -101,40 +101,6 @@ h2 {
 }
 
 
-/* Hide Sidebar if screen height too small to display whole sidebar */
-@media (max-height: 850px) {
-    body {
-        margin-left: 250px;
-        margin-right: 0px;
-    }
-
-    .main-content {
-        width: 100%;
-        margin: 0;
-        margin-top: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .section {
-        justify-content: center;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    .BWnamelogo {
-        width: 60%;
-        height: 60%;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        margin-top: 20px;
-        padding: 15px;
-    }
-}
-
 /* Hide Sidebar on Mobile */
 @media (max-width: 900px) {
     body {
@@ -181,7 +147,15 @@ h2 {
 #about-me-container .about-me,
 #about-me-container .main-technical-skills {
     display: none;
-    /* Hide these elements by default */
+    /* Hidden by default; shown on mobile when sidebar is hidden */
+    }
+    
+    @media (max-width: 900px) {
+    
+        #about-me-container .about-me,
+        #about-me-container .main-technical-skills {
+            display: flex;
+        }
 }
 
 
@@ -233,44 +207,8 @@ h4 {
 
 
 
-/* Hide Sidebar if screen height too small to display whole sidebar */
-@media (max-height: 850px) {
-
-    .about-me,
-    .main-technical-skills {
-        width: 90%;
-        margin-bottom: 30px;
-
-    }
-
-    #about-me-container {
-        display: flex;
-        justify-content: center;
-        /* Distribute space between the sections */
-        flex-direction: column;
-        /* Stack the sections vertically on small screens */
-        align-items: center;
-        /* Center align the sections */
-        /* Align items at the top */
-        gap: 20px;
-        width: 100%;
-    }
-
-    #about-me-container .about-me {
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* Center items horizontally */
-        justify-content: center;
-    }
-}
-
-
-
-
-/* on mobile phones */
-@media (max-width: 850px) {
+/* Show about-me in main content on mobile (sidebar hidden) */
+@media (max-width: 900px) {
 
     .about-me,
     .main-technical-skills {

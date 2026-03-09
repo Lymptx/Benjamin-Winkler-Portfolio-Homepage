@@ -18,40 +18,6 @@
 }
 
 
-@media (max-width: 1500px) {
-    .sidebar {
-        width: 330px;
-        height: 100vh;
-        background-color: #151515;
-        padding: 20px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        overflow-y: auto;
-        transition: transform 0.3s ease-in-out;
-    }
-
-}
-
-/* only half sidebar */
-@media (max-height: 850px) {
-    .sidebar {
-        position: fixed;
-        width: 200px;
-    }
-
-    .about-me-desktop {
-        display: none;
-    }
-}
-
-
 /* Hide Sidebar on Mobile */
 @media (max-width: 900px) {
     .sidebar {
@@ -189,10 +155,9 @@
 .skills-grid {
     display: flex;
     flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 15px;
     width: 100%;
-    max-width: 280px;
 }
 
 .technical-skills h3 {
@@ -215,7 +180,7 @@
     font-weight: 600;
     color: #ffffff;
     margin: 0 0 6px 0;
-    text-align: left;
+    text-align: center;
     font-family: "Raleway";
 }
 
@@ -223,6 +188,7 @@
 .category-skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 6px;
     width: 100%;
 }
